@@ -1,0 +1,79 @@
+/* Contact Page Styling */
+.contact {
+    background-color: #F7C301;
+    text-align: center;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact h1 {
+    color: #800000;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.contact p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto 1rem auto;
+}
+
+.contact-info {
+    margin-bottom: 1.5rem;
+}
+
+/* Contact Form */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+    max-width: 600px;
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form label {
+    font-weight: bold;
+    text-align: left;
+    width: 100%;
+}
+
+.contact-form input, 
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Submit Button Styling */
+.contact-form button {
+    background-color: #800000;
+    color: white;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.contact-form button:hover {
+    background-color: #600000;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .contact-form {
+        width: 90%;
+        padding: 1.5rem;
+    }
+}
